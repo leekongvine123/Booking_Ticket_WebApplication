@@ -1,0 +1,43 @@
+
+
+    body {
+        height: 100%;
+        width: 100%;
+
+    }
+    .profile {
+        background-color: #fff;
+        box-shadow: 5px 5px 5px 9px #888888;
+        border-radius: 5px;
+        /*    min-width: 400px;*/
+        width: 50%;
+        text-align: center;
+    }
+    .profile-container{
+        margin: 200px 0;
+        display: flex;
+        justify-content: center;
+    }
+    .profile-header{
+        text-align: center;
+    }
+    .profile-detail{
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 0;
+        text-align: center;
+
+    }
+
+    .submit-butn{
+
+        padding: 5px;
+        cursor: pointer;
+        /* background-color: ;     */
+        /* margin: 10px 10px 10px 300px; */
+
+    }
+    .line{
+        width: 50%;
+        margin: 10px auto;
+    }

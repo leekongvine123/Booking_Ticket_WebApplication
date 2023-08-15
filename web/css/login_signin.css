@@ -1,0 +1,304 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.input-container>i {
+    margin-right: 10px;
+    width: 20px;
+}
+/*Login part*/
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-width: 50px;
+    margin: 10% 0 16% 0;
+
+}
+.login {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;    
+    min-height: 200px;
+    max-width:900px;
+    margin-bottom: 30px;
+}
+.login-header {
+    width: 100%;
+    text-align: center;
+
+    margin-right: 0;
+}
+/*Input container*/
+
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-width: 100%;
+    margin: 5px 5px;
+}
+
+.forgot-pass-container{
+    background-color: red;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #6666FF;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 5px 10px 10px #888888;
+
+
+}
+.forgot-pass-container > a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+/*End Input container*/
+.login-footer{
+
+}
+.login-footer,
+.login-input {
+    width: 91%;
+    min-height: 50px;
+}
+
+.login-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-right: 3.6%;
+
+}
+
+.login-submit {
+    margin: 5px 20px 10px 20px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+/*Login footer*/
+.login-footer {
+    padding-top: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px
+}
+/*End Login footer*/
+
+/*End Login part*/
+#capt{
+    width: 20%;
+    background-color: #ccc
+}
+.form-control{
+    width: 30%
+}
+.captcha-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.captcha-input{
+    width: 30%;
+    margin-right: 5px;
+}
+.input-capt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-width: 100%;
+    margin: 5px 5px 5px 21px;
+}
+.capt-error{
+    display: inline-block;
+    margin: 0 10px 0 0;
+
+}
+
+.login-submit {
+    text-align: center;
+    width: 100%; /* Optional: Adjust the width to fit your layout */
+}
+
+
+.container-input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between  ;
+    align-items: center;
+    align-content: center;
+    min-width: 100%;
+    margin: 5px 5px;  
+}
+.container-input-line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    align-items: center;
+    align-content: center;
+    min-width: 100%;
+    margin: 5px 5px; 
+}
+
+.container-input > h4 {
+    margin-right: 10%;
+    margin-left:  5%;
+}
+
+
+
+
+.form-group{
+    width: 100%;
+}
+
+.login-google-container{
+    display: flex;
+    align-items: center;    
+    background-color: #6666ff;
+    box-shadow: 5px 10px 10px #888888;
+    border: 2px solid ;
+    padding: 2px;
+    border-radius: 3px;
+    margin-left: 44px;           
+}
+.login-google-container > a{
+    display: block;
+    color: white; 
+    text-decoration: none;
+
+}
+.forgot-pass-container,
+.login-google-container {
+    transition: transform 0.3s ease;
+}
+
+.forgot-pass-container:hover,
+.login-google-container:hover {
+    transform: translateY(-10%);
+    cursor: pointer;
+}
+.forgot-pass-container:not(:hover),
+.login-google-container:not(:hover) {
+    transform: translateY(0);
+}
+.login-google-container > a:hover{
+
+    color: white;
+
+}
+.logo-wrapper > img {
+    width: 40px;
+    margin-right: 15px;
+    border-radius: 5px;
+    padding: 2px;
+
+}
+.captcha-img{
+    width: 15%; 
+    padding: 0 3px;
+    border: 2px solid ;
+    border-radius: 5px;
+}
+
+
+
+
+/*Forget Pass JSP css*/
+.pass-submit,
+.back-login {
+    transition: transform 0.3s ease;
+}
+.back-login:hover,
+.pass-submit:hover {
+    transform: translateY(-10%);
+    cursor: pointer;
+}
+.back-login:not(:hover),
+.pass-submit:not(:hover) {
+    transform: translateY(0);
+}
+.back-login > a{
+    color: white;
+    text-decoration: none;
+}
+.back-login{
+    text-align: center;
+    padding: 10px;
+    width: 20%;
+    height: 20%;    
+    background-color: #cc0000;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 2px 5px 10px #888888;
+}
+.pass-submit{
+    width: 40%;
+    background-color: green;
+    color: white;
+    transition: transform 0.3s ease;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px #888888;
+}
+
+.forget-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;                
+    width: 100%;
+    height: 1000px;
+}
+.forget-password-header{
+    background-color: #fff; 
+    padding: 20px;
+    width: 50%;
+    min-height: 250px;
+
+}
+.forget-password-body{
+    background-color: #fff; 
+    padding: 20px;
+    width: 50%;
+    min-height: 500px;
+  
+}
+
+
+.submit-footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-forgot{
+    text-align: center;
+}
+/*End Forget Pass JSP css*/
+
+
+

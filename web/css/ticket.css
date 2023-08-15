@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Ticket-header*/
+.ticket-inf {
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: green;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 128, 0, 0.3);
+    transition: all 0.3s ease;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-width: 30px;
+    margin: 2% 20% 0% 20%;
+}
+/*end Ticket-header*/
+
+/*User(Booker) information*/
+.cus {
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: green;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 128, 0, 0.3);
+    transition: all 0.3s ease;
+
+
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-width: 30px;
+    margin: 3% 20% 0% 20%;
+}
+.cus-inf {
+    display: flex;
+    background-color: #E7F7FF;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    min-width: 30px;
+    margin: 0% 20% 0% 20%;
+    font-size: 200%;
+    flex-direction: column;
+}
+.name{
+    padding: 1%;
+}
+
+.phone-number{
+    padding: 1%;    
+}
+
+.email{
+    padding: 1%;    
+}
+/*end User(Booker) information*/
+
+/*Trip's Information*/
+.trip {
+
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: green;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 128, 0, 0.3);
+    transition: all 0.3s ease;
+
+
+
+    display: flex;
+    background-color: white;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-width: 30px;
+    margin: 0% 20% 0% 20%;
+}
+.trip-inf {
+    display: flex;
+    background-color: #E7F7FF;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    min-width: 30px;
+    margin: 0% 20% 0% 20%;
+    font-size: 200%;
+    flex-direction: column;
+}
+
+.route-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.route {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+
+}
+
+.total{
+    background-color: white;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 1% 10%;
+
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: green;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 128, 0, 0.3);
+    transition: all 0.3s ease;
+
+}
+
+.departure-time{
+    padding: 1%;
+}
+
+.seat-number{
+    padding: 1%;
+}
+
+
+.license-cart-pay {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+.license-plate{
+    display: flex; 
+    align-items: center;
+}
+/*end Trip's Information*/
+
+/*Add to cart-Pay button*/
+.cart-pay-buttons button {
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 0.5% 30px;
+
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: green;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 128, 0, 0.3);
+    transition: all 0.3s ease;
+
+}
+
+.cart-pay-buttons button:hover{
+    box-shadow: 0px 8px 12px rgba(0,128, 0, 0.5);
+    transform: translateY(-15%);
+    cursor: pointer;
+}
+.cart-pay-buttons a{
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 0.5% 30px;
+
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: green;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 128, 0, 0.3);
+    transition: all 0.3s ease;
+}
+.cart-pay-buttons a:hover{
+
+    box-shadow: 0px 8px 12px rgba(0,128, 0, 0.5);
+    transform: translateY(-15%);
+    cursor: pointer;
+}
+/*End Add to cart-Pay button*/

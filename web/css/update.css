@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* add border-black  */
+.border-black {
+    border: 1px black solid
+}
+/*end add border-black  */
+
+/* update-container */
+.update-container {
+  
+
+}
+
+/* End update container */
+.profile-container{
+    display: flex;
+}
+/* update-header */
+.update-header {
+
+}
+
+.update-header>h1 {
+    text-align: center;
+}
+/*End update-header */
+
+
+
+
+
+/* update-body */
+.update-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+/*End update-body */
+
+/* update-before */
+.update-before {
+    width: 100%;
+    text-align: center;
+}
+/*End update-before */
+
+/* update-after */
+.update-after {
+    width: 100%;
+    text-align: center;
+}
+/* End update-afer */
+
+/* update-detail && detail */
+.update-detail {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detail {
+    width: 30%;
+   
+}
+/*End update-detail && detail */
+
+
+
+/* detail-data */
+.detail-data {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+ 
+}
+/*End detail-data */
+
+
+.submit-butn {
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.save {
+    margin-left: 71.4%;
+
+}
+.save-add{
+    margin-left: 71.7%;
+
+}
+.table{
+    width: 100%;
+}
+.table-header{
+    background-color: #ccc;
+}
+.table-header > h2{
+
+    text-align: center;
+}
+.route-container{
+    margin: 10% 0px;
+}
+.add-route{
+    background-color: #ccc; 
+}
+.form_container{
+     
+
+        border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: green;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 128, 0, 0.3);
+    transition: all 0.3s ease;
+}
+.detail p{
+    margin: 0;
+    padding: 1%;
+    
+}
+
+   
